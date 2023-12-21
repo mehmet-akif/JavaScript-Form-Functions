@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 04</title>
+    <link rel="stylesheet" href="lab04CSS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Problem 1:  -->
+    <h1>Problem 1: Form Validation and Display</h1>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" required><br><br>
+
+        <button type="button" id="validateButton">Validate and Display</button>
+    </form>
+    <div id="displayResult"></div>
+
+    <!-- Problem 2:  -->
+    <h1>Problem 2: Real-time Character and Letter Count</h1>
+    <textarea id="charCountTextarea"></textarea>
+    <div id="charCountResult">Character Count: 0</div>
+    <div id="letterCountResult">Letter Count: 0</div>
+
+    <!-- Problem 3:  -->
+    <h1>Problem 3: List of Bookmarks</h1>
+    <ul id="bookmarkList"></ul>
+
+    <script  src="lab04JS.js">
+        
+       
+    </script>
+</body>
+</html>
