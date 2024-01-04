@@ -4,11 +4,9 @@
 ## Description
 The "JavaScript Form Functions" repository offers a collection of JavaScript functions designed to enhance web form interactions. These functions validate name and phone number inputs, format phone numbers for readability, employ the DOM for aesthetically appealing displays, and implement real-time character counting for `<textarea>` elements. Additionally, the project generates a list of favorite website bookmarks, showcasing secure (https) and unsecured (http) links.
 
-## Screenshots
-![JavaScript Form Functions Demo](path_to_your_demo_image.png)
-![JavaScript Form Functions Demo](path_to_your_demo_image.png)
+## Link
 
-link https://cs.torontomu.ca/~asipahi/lab04.html
+For an interactive experience, check out the live website: https://cs.torontomu.ca/~asipahi/lab04.html
 
 ## Features
 - Validation of name and phone number inputs
